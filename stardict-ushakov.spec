@@ -29,3 +29,10 @@ install -p -m644 -D %SOURCE2 %{buildroot}%{_datadir}/stardict/dic/%dict_name.ifo
 rm -rf %{buildroot}
 %files
 %{_datadir}/stardict/dic/%{dict_name}*
+
+
+%changelog
+* Sat Jul 23 2011 Yuri Myasoedov <omerta13@mandriva.org> 2.4.2-1mdv2012.0
++ Revision: 691228
+- Initial package import
+
